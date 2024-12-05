@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+body {
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.text {
+  font-family: "Montserrat", Arial Black, Impact, sans-serif;
+  font-size: 8rem;
+  font-variant: small-caps;
+  font-weight: 700;
+  background-image: url("image.jpg");
+  background-size: cover;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
